@@ -8,14 +8,18 @@
       nzXs="0"
       class="owner_login_boxtext"
     >
+    
       <nz-card class="login_cardText">
+        <div nz-row>
+          <div nz-col nzSpan="8" class="displayMasterTitle"><h1>Welcome to Library</h1></div>
+        </div>
         <div nz-row>
           <div nz-col nzSpan="8">
             <div class="displayTitle underline">
-              <h2>Ready to Get Started?</h2>
+              <strong>Ready to Get Started?</strong>
             </div>
             <p>
-                Enter your credentials and click the "Login" button to access your
+                Enter your credentials and click the "Sign In" button to access your
                 account and explore the wealth of resources available in our library
                 management system.
             </p>
@@ -41,6 +45,7 @@
               <nz-form-control nzErrorTip="Please input your username!">
                 <!-- <input type="text" nz-input formControlName="userName" placeholder="Username" /> -->
                 <input
+                nz-input
                   required=""
                   class="input"
                   nz-input
@@ -56,6 +61,7 @@
             <nz-form-item>
               <nz-form-control nzErrorTip="Please input your Password!">
                 <input
+                nz-input
                   required=""
                   class="input"
                   type="password"

@@ -205,7 +205,13 @@
   .login_cardText {
     align-items: center;
     display: flex;
+    
   }
+  .displayMasterTitle{
+    display: flex;
+    justify-content: center;
+  }
+  
   
   .owner_login_boxtext:after {
     width: 96%;
